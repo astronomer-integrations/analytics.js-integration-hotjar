@@ -29,7 +29,6 @@ describe('Hotjar', function() {
 
   it('should have the correct settings', function() {
     analytics.compare(Hotjar, integration('Hotjar')
-      .assumesPageview()
       .global('hj')
       .global('_hjSettings')
       .option('hjid')
@@ -48,20 +47,8 @@ describe('Hotjar', function() {
         analytics.equal(window._hjSettings.hjid, options.hjid);
         analytics.equal(window._hjSettings.hjsv, options.hjsv);
       });
-
-      it('should call #load', function() {
-        analytics.initialize();
-        analytics.page();
-        analytics.called(hotjar.load);
-      });
     });
   });
-
-  // describe('loading', function() {
-  //   it('should load', function(done) {
-  //     analytics.load(hotjar, done);
-  //   });
-  // });
 
   describe('after loading', function() {
     beforeEach(function(done) {
