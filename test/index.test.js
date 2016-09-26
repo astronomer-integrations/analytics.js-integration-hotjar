@@ -36,10 +36,6 @@ describe('Hotjar', function() {
   });
 
   describe('before loading', function() {
-    beforeEach(function() {
-      analytics.stub(hotjar, 'load');
-    });
-
     describe('#initialize', function() {
       it('should pass options to _hjSettings', function() {
         analytics.initialize();
