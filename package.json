@@ -1,5 +1,5 @@
 {
-  "name": "analytics.js-integration-hotjar",
+  "name": "@astronomerio/analytics.js-integration-hotjar",
   "description": "The Hotjar Analytics.js integration.",
   "author": "becky@astronomer.io",
   "license": "MIT",
