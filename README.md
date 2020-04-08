@@ -1,6 +1,6 @@
 ![alt text](http://brandonmlewin.com/wp-content/uploads/2016/05/hotjar.jpg "Hotjar Analytics.js integration")
 
-#[Analytics.js](https://github.com/astronomerio/analytics.js) Integration for [Hotjar](https://www.hotjar.com/), by [Astronomer.io](http://www.astronomer.io/).
+#[Analytics.js](https://gitlab.com/metarouter/analytics-js/) Integration for [Hotjar](https://www.hotjar.com/), by [Metarouter](http://www.metarouter.io/).
 
 ## Step 1: Create a Hotjar account
 Create a Hotjar account through [their website](https://www.hotjar.com/).
@@ -8,11 +8,11 @@ Create a Hotjar account through [their website](https://www.hotjar.com/).
 ## Step 2: Add the Hotjar tracking code to your site and validate it
 See [Hotjar's documentation](http://docs.hotjar.com/docs/getting-started) for getting set up.
 
-## Step 3: Log into your app's Astronomer dashboard and select Hotjar.  The Hotjar Configuration pane should appear on the right side of your screen.
+## Step 3: Log into your app's Metarouter dashboard and select Hotjar.
 
-## Step 4: Enter your Hotjar ID (hjid) and Hotjar Snippet Version (hjsv) into the Hotjar Configuration
+## Step 4: Enter your Hotjar Site ID (hjid) into the Hotjar Configuration
 
-Your Hotjar ID comes from your Hotjar tracking code, shown as `hjid` below.  Your Hotjar Snippet Version is shown as `hjsv` below.
+Your Hotjar Site ID comes from your Hotjar tracking code, shown as `hjid` below.
 
 ```html
 <!-- Hotjar Tracking Code for http://www.example.com -->
@@ -29,12 +29,9 @@ Your Hotjar ID comes from your Hotjar tracking code, shown as `hjid` below.  You
 ```
 Save your settings.
 
-## Step 5: Activate the Hotjar integration
-Activate the integration by toggling the switch so that it is flipped to the right and turned red.
+## Step 5: Log into your Hotjar dashboard and you should see pageviews show up in any Heatmaps you have setup!
 
-## Step 6: Log into your Hotjar dashboard and you should see pageviews show up in any Heatmaps you have setup!
-
-## Step 7: Watch this [funny video]().  You've earned it!
+## Step 6: Watch this [funny video](https://www.youtube.com/watch?v=dQw4w9WgXcQ).  You've earned it!
 
 ## License
 
